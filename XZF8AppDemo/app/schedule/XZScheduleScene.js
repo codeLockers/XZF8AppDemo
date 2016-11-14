@@ -16,7 +16,9 @@ class XZScheduleScene extends Component {
   
   render() {
     return (
-        <XZContainer />
+        <XZContainer 
+        title='Schedule'
+        rightItem='Filter'/>
     );
   }
 }
