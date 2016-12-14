@@ -30,6 +30,10 @@ class XZContainer extends Component {
   		};
 	}
 
+  /**
+   * 滑动回调
+   * @param  {float} offset 位移距离
+   */
   _handleScroll(offset){
     this.state.offset_y.setValue(offset)
   }
@@ -60,7 +64,8 @@ class XZContainer extends Component {
   		
       <View style={{flex: 1,}}>
 
-        <XZContainerBackgroundView 
+        <XZContainerBackgroundView
+        minHeight={64}
         maxHeight={EMPTY_CELL_HEIGHT}
         offset={this.state.offset_y}
         >

@@ -49,7 +49,8 @@ const styles = StyleSheet.create({
 	container:{
 		flexDirection:'row',
 		height:(XZConst.NAVIGATION_BAR_HEIGHT-XZConst.STATUS_BAR_HEIGHT),
-		marginTop:XZConst.STATUS_BAR_HEIGHT
+		marginTop:XZConst.STATUS_BAR_HEIGHT,
+		backgroundColor:'red'
 	},
 	leftView:{
 		flex: 1,
